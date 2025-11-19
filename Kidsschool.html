@@ -1,0 +1,359 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        .collapse{
+            display: flex;
+            justify-content: end; 
+              }
+              .inner{
+                margin-top: 50px;
+              }
+            .con1{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                
+                
+                }  
+            .con1 img{
+                height: 250px;
+                width: 250px;
+                box-shadow:3px 1px 2px 2px lightgrey;
+                border-radius: 25px;
+            }
+            .con2{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .n h1{
+                font-size: 40px;
+            }
+            .con3{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .con3 img{
+                height: 500px;
+                width: 370px;
+                box-shadow:3px 1px 2px 2px lightgrey;
+                border-radius: 25px;
+            }
+            .con4{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .con4 img{
+                height: 270px;
+                width: 550px;
+                border-radius: 25px;
+            }
+            .con5{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .con5 img{
+                height: 140px;
+                width: 150px;
+                border-radius: 25px;
+            }
+            .con6{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .con6 img{
+                height: 400px;
+                width: 1250px;
+            }
+            .con7{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .con7 img{
+                height: 400px;
+                width: 300px;
+                box-shadow:3px 1px 2px 2px lightgrey;
+                border-radius: 25px;
+            }
+            .con8 img{
+                height: 550px;
+                width: 100%;
+            }
+            footer{
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding: 50px 20px;
+      margin-top: 50px;
+      background: lightblue;
+     } 
+     footer .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+     }
+     footer .container .sec h2{
+      position: relative;
+      color: white;
+      font-weight: 600;
+      margin-top: 15px;
+     }
+     footer .container .sec p{
+      color: white;
+     }
+     
+     footer .container .sci li{
+      list-style: none;
+      display: flex;
+     }
+    
+     footer .container .sci li a i{
+      color: #fff;
+      font-size: 20px;
+     }
+     footer .container .quicklinks {
+      position: relative;
+     }
+     footer .container .quicklinks ul li{
+      list-style: none;
+     }
+     footer .container .quicklinks ul li a{
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+     }
+     footer .container .contact .info{
+      position: relative;
+     }
+     footer .container .contact .info li{
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      margin-bottom: 16px;
+     }
+     footer .container .contact .info li span{
+      color: white;
+      font-size: 20px;
+     }
+     footer .container .contact .info li a{
+      color: white;
+      text-decoration: none;
+     }
+     .copyrightText{
+       width: 100%;
+       background-color:#242121;
+       padding: 20px 100px 30px;
+       margin-bottom: 30px;
+       text-align: center;
+       color: white;
+     }
+    
+    @media (max-width:768px) {
+
+       footer .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 30px;
+     }
+    }
+    @media (max-width:540px) {
+
+         footer .container{
+         width: 100%;
+         display: grid;
+         grid-template-columns:repeat(1,1fr);
+         grid-gap: 30px;
+}
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="edupicture.png" height="70px" width="220px
+            " ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+     <div class="row">
+        <div class="col">
+           <img src="banner.png" class="img-fluid">
+        </div>
+       
+      <center><div class="h5 mt-5">BEST FEATURE</div>
+              <div class="h1">Achieve Your Goals <br> With Edu School</div>
+    </center>
+    <div class="con1 mt-5">
+        <div class="inner"><img src="box1.png"></div>
+    <div class="inner" ><img src="box2.png"></div>
+    <div class="inner"><img src="box3.png"></div>
+    <div class="inner"><img src="box4.png"></div>
+    </div>
+   <div class="con2 mt-5">
+    <div class="img1"><img src="img1.jpg" class="img-fluid"></div>
+    <div class="n"><h1>We Are The Best  <br>Choice For Your Child</h1>
+        <br>
+     <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. <br> Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</p>
+     <br>
+     <br>
+     <ul>
+        <li>Special Education</li>
+        <li>Access more then 100K online courses</li>
+        <li>Traditional Academies</li>
+     </ul>
+     <br>
+     <br>
+     <br>
+     <button class="btn btn-warning" style="width: 150px; border-radius: 30px; height: 40px; color: white;">Apply Now</button>
+    </div>
+   </div>
+    
+   <center><div class="h5 mt-5">BEST COURSES</div>
+    <div class="h1">Find The Right Course <br> For You</div>
+</center>
+<div  class="con3 mt-5">
+    <div class="inner"><img src="edu1.png"></div>
+    <div class="inner"><img src="edu2.png"></div>
+    <div class="inner"><img src="edu3.png"></div>
+    <br>
+    <button class="btn btn-warning mt-5 " style="width: 250px; border-radius: 30px; height: 40px; color: white;">Browse more courses</button>
+</div>
+
+<center><div class="h5 mt-5">WHY CHOOSE US</div>
+    <div class="h1">Tools For Teachers And <br> Learners</div>
+</center>
+<div  class="con4 mt-5">
+    <div class="inner"><img src="teacher1.png"></div>
+    <div class="inner"><img src="teacher2.png"></div> 
+</div>
+
+<center><div class="h5 mt-5">OUR STATISTICS</div>
+    <div class="h1">We are Proud to Share <br> with You</div>
+</center>
+<div  class="con5 mt-5 ">
+    <div class="inner"><img src="nil1.png" ></div>
+    <div class="inner"><img src="nil2.png"></div>
+    <div class="inner"><img src="nil3.png"></div>
+    <div class="inner"><img src="nile4.png"></div>
+</div>
+
+
+<div  class="con6 mt-5">
+    <div class="inner"><img src="poster1.png" class="img-fluid"></div>
+</div>
+
+
+<center><div class="h5 mt-5">OUR NEWS</div>
+    <div class="h1">Latest Blog Posts</div>
+    
+</center>
+
+<div  class="con7 mt-5">
+    <div class="inner"><img src="vik1.png"></div>
+    <div class="inner"><img src="vik2.png"></div>
+    <div class="inner"><img src="vik3.png"></div>
+    <br>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="sec aboutus">
+      <h2>About us</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid rerum quibusdam numquam asperiores facilis fugit inventore odio! Veniam, enim dolore?</p>
+       <ul class="sci">
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+        <li><a href=""><i class="fa-brands fa-youtube"></i></i></a></li>
+       </ul>
+    </div>
+    <div class="sec quicklinks">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="">Courses</a></li>
+        <li><a href="">Become a Teachers</a></li>
+        <li><a href="">contact us</a></li>
+        <li><a href="">Career</a></li>
+      </ul>
+    </div>
+    <div class="sec quicklinks">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="">Blog post</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Tutorials</a></li>
+        <li><a href="">Licences & uses</a></li>
+      </ul>
+    </div>
+    <div class="sec contact">
+      <h2>Contact us</h2>
+      <ul class="info">
+        <li><span><i class="fa-solid fa-phone"></i></span>
+         <p><a href="">1 234 567 8900</a></p>
+        </li>
+        <li><span><i class="fa-solid fa-envelope"></i></span>
+          <p><a href="">knowmore@email.meee</a></p>
+         </li>
+      </ul>
+    </div>
+  </div>
+ </footer>
+ <div class="copyrightText">
+  <p>Copyright 2025 Online tutorials.All Rights Reserved</p>
+ </div>
+</body>
+</html>
